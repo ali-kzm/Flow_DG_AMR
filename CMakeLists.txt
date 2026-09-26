@@ -35,6 +35,7 @@ add_subdirectory(lib/p4est EXCLUDE_FROM_ALL)
 
 add_executable(flow_dg_amr
     src/main.cpp
+    src/mesh2d.cpp
 )
 
 target_include_directories(flow_dg_amr
